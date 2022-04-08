@@ -8,4 +8,4 @@
 
 1. Another list
 1. Cool ***changes***
-1. [Lab Report 1](lab-report-1-week-2.html)
+1. [Lab Report 1](https://dfigueroag.github.io/cse15l-lab-reports/index.html)
