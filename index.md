@@ -10,9 +10,15 @@ Go to https://code.visualstudio.com/ and follow the instructions. Make sure to d
 
 2. **Remotely Connecting**
 
+On a mac, open Terminal and insert $ ssh cs15lsp22zz@ieng6.ucsd.edu but with the zz replaced by the letters in your specific account. You will get a message asking about continuing to connect, make sure to say yes. Afterwords, give the password you have already established. Once this is done, you will have a screen that looks like the following:
 
+![Image](RemotelyConnecting.png)
 
 3. **Trying Some Commands**
+
+You can run multiple commands from here. Some interesting ones are cd ~, ls -lat, ls < directory >. Here's a screen shot of my screen after running a few of these:
+
+![Image](SampleCommands.png)
 
 4. **Moving Files with scp**
 5. **Setting an SSH Key**
