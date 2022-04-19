@@ -40,4 +40,4 @@ As a final tip, you can throw multiple directions in the same command. This is d
 
 ![Image](Optimization.png)
 
-[Lab Report 1](lab-report-1-week-2.html)
+[Lab Report 1](https://dfigueroag.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
