@@ -39,3 +39,5 @@ In order to create a key, run the ***$ ssh-keygen*** command. Make sure not to a
 As a final tip, you can throw multiple directions in the same command. This is done by using semicolons. An example is the following ***$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI***. Here is an example of copying a document and running it while logged out:
 
 ![Image](Optimization.png)
+
+[Lab 1]([Lab Report 1](lab-report-1-week-2.html))
