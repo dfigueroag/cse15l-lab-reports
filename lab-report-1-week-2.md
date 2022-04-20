@@ -41,4 +41,4 @@ As a final tip, you can throw multiple directions in the same command. This is d
 ![Image](Optimization.png)
 
 ![Image](Axolotl.jpg)
-[Lab Report 1](index.html)
+[Index Page](index.html)
