@@ -2,6 +2,8 @@
 **Team Axolotl**
  ![Axolotl](https://user-images.githubusercontent.com/96553474/162535420-9fa77fb1-e2cc-42fb-a98d-479bef6edcd3.jpg)
 
+ ### [Index Page](index.html)
+
 ### **Code Change 1**
 
 ![Image](CodeChange1.png)
@@ -14,14 +16,17 @@ In this case, the error came from an extra line at the end of the file. This cau
 
 ![Image](CodeChange2.png)
 
-You can run multiple commands from here. Some interesting ones are ```cd ~```, ```ls -lat```, ```ls <directory>```. Here's a screen shot of my screen after running a few of these:
+[Code](https://github.com/kl2024/markdown-parser/blob/main/test-file.md) that induced failure
+
+In the second case, the error came from a space in between the ```[]``` brackets and the ```()``` parenthesis in the file link. Therefore, when the code attempted to read the ```file.md``` link, it did not like it. We were able to debug this by adding an if statement that checks if the closing square bracket is followed by a parenthesis, and not any other space or character. If the closing square bracket is not met by an open parenthesis, it would skip to the index of the open parenthesis.
 
 ### **Code Change 3**
 
 ![Image](CodeChange3.png)
 
-We can transfer files to and from the server using the ```scp``` command. To do so, first create a file you would like to transfer. Afterwards, run ```scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/``` on your own client, with the file you created instead of ```WhereAmI```. Finally, you should be prompted for a password. Now if you log into the ieng6 with the ```ssh``` and use the ```ls``` command, the file should be visible. Once you succeed, it should look like this:
-
-![Image](Transfer.png)
+[Code](https://github.com/kl2024/markdown-parser/blob/main/test-file3.md) that induced failure
 
 
+asdf
+
+This error was due to not importing the necessary interfaces to successfully run our program. Upon compiling, the program would then run illegal start of expression and cannot find symbol errors. By correctly importing the ArrayList and List interfaces, we were able to solve this issue
