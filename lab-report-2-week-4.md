@@ -4,7 +4,7 @@
 
 ### **Installing VS Code**
 
-![Image](VSCodeDownload.jpg)
+![Image](CodeChange1.png)
 
 Go to https://code.visualstudio.com/ and follow the instructions. Make sure to download the correct version for your computer. Note the blue download button on the top right.
 
@@ -12,13 +12,13 @@ Go to https://code.visualstudio.com/ and follow the instructions. Make sure to d
 
 On a mac, open Terminal and insert ```$ ssh cs15lsp22zz@ieng6```.ucsd.edu but with the zz replaced by the letters in your specific account. You will get a message asking about continuing to connect, make sure to say yes. Afterwards, give the password you have already established. Once this is done, you will have a screen that looks like the following:
 
-![Image](RemotelyConnecting.png)
+![Image](CodeChange2.png)
 
 ### **Trying Some Commands**
 
 You can run multiple commands from here. Some interesting ones are ```cd ~```, ```ls -lat```, ```ls <directory>```. Here's a screen shot of my screen after running a few of these:
 
-![Image](SampleCommands.png)
+![Image](CodeChange3.png)
 
 ### **Moving Files with scp**
 
