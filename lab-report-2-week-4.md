@@ -27,6 +27,5 @@ In the second case, the error came from a space in between the ```[]``` brackets
 [Code](https://github.com/kl2024/markdown-parser/blob/main/test-file3.md) that induced failure
 
 
-asdf
+In this case, the bug stemed from not having the required interfaces imported. Consequently when we complied the code we were met with ```illegal start of expression``` and ```cannot find symbol errors```. to debug this, we imported the ```ArrayList``` and ```List``` interfaces.
 
-This error was due to not importing the necessary interfaces to successfully run our program. Upon compiling, the program would then run illegal start of expression and cannot find symbol errors. By correctly importing the ArrayList and List interfaces, we were able to solve this issue
