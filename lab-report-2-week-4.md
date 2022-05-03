@@ -16,7 +16,7 @@ In this case, the error came from an extra line at the end of the file. This cau
 
 ![Image](CodeChange2.png)
 
-[Code](https://github.com/kl2024/markdown-parser/blob/main/test-file.md) that induced failure
+[Code](https://github.com/kl2024/markdown-parser/blob/main/test-file2.md) that induced failure
 
 In the second case, the error came from a space in between the ```[]``` brackets and the ```()``` parenthesis in the file link. Therefore, when the code attempted to read the ```file.md``` link, it did not like it. We were able to debug this by adding an if statement that checks if the closing square bracket is followed by a parenthesis, and not any other space or character. If the closing square bracket is not met by an open parenthesis, it would skip to the index of the open parenthesis.
 
