@@ -41,15 +41,16 @@ Git commands for push and commit respectively
 This portion deemed to be a lot more challenging as my computer was not liking the git commands. After tutor hours, this issue was promptly fixed. The results were as expected and they work fine.
 
 ### **Copy whole directories with ```scp -r```**
-
+Copying whole markdown-parse directory to ieng6 account:
 ![Image](copyingEverything.png)
 ![Image](copyingEverythingPt2.png)
+
+Logging into ieng6 and running tests for repository:
 ![Image](tests.png)
+
+Combining scp, ;, and ssh to copy the whole directory and run the tests in one line:
 ![Image](commandLine.png)
 ![Image](resultWithTest.png)
 
 
-[Code](https://github.com/kl2024/markdown-parser/blob/main/test-file3.md) that induced failure
-
-
-In this case, the bug stemed from not having the required interfaces imported. Consequently when we complied the code we were met with ```illegal start of expression``` and ```cannot find symbol errors```. to debug this, we imported the ```ArrayList``` and ```List``` interfaces.
+This portion was also straight forward. No issues where encountered once I fixed my key in part 2. The command line was tedious, but it worked in the end. This allows the process to be streamlined and works well.
