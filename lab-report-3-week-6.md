@@ -1,22 +1,32 @@
-# Lab Report 2
+# Lab Report 3
 **Team Axolotl**
  ![Axolotl](https://user-images.githubusercontent.com/96553474/162535420-9fa77fb1-e2cc-42fb-a98d-479bef6edcd3.jpg)
 
  [Index Page](index.html)
 
-### **Code Change 1**
+### **Streamlining ssh Configuration**
 
-![Image](CodeChange1.png)
+```.ssh/config``` file:
 
-[Code](https://github.com/kl2024/markdown-parser/blob/main/test-file.md) that induced failure
+![Image](configFile.png)
 
-In this case, the error came from an extra line at the end of the file. This caused the code to crash when compiling as an infinite loop would take place. We debugged this by adding a ```print``` statement of the index that revelead the infinite loop, and so we just deleted the extra line.
+```ssh``` command of my login:
+
+![Image](login.png)
+
+```scp``` command to copy:
+
+![Image](copySsh.png)
+
+
+
+In this case, I simply created an ssh file to make a shortcut. It was the easiest of the three tasks, but finding the ssh folder on a mac proved to be quite the challenge. It works well, and I chose ieng6 to be my alias.
 
 ### **Code Change 2**
 
 ![Image](CodeChange2.png)
 
-[Code](https://github.com/kl2024/markdown-parser/blob/main/test-file2.md) that induced failure
+
 
 In the second case, the error came from a space in between the ```[]``` brackets and the ```()``` parenthesis in the file link. Therefore, when the code attempted to read the ```file.md``` link, it did not like it. We were able to debug this by adding an if statement that checks if the closing square bracket is followed by a parenthesis, and not any other space or character. If the closing square bracket is not met by an open parenthesis, it would skip to the index of the open parenthesis.
 
