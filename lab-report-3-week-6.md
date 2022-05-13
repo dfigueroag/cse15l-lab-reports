@@ -20,9 +20,9 @@
 
 
 
-In this case, I simply created an ssh file to make a shortcut. It was the easiest of the three tasks, but finding the ssh folder on a mac proved to be quite the challenge. It works well, and I chose ieng6 to be my alias.
+In this case, I simply created an ssh file to make a shortcut. It was the easiest of the three tasks, but finding the ssh folder on a mac proved to be quite the challenge. It works well, and I chose ```ieng6``` to be my alias.
 
-### **Setup Github Access from ieng6**
+### **Setup Github Access from ```ieng6```**
 Picture of where my key is stored on github:
 ![Image](gitKeyStorage.png)
 Picture of my key in my user account:
@@ -41,14 +41,14 @@ Git commands for push and commit respectively
 This portion deemed to be a lot more challenging as my computer was not liking the git commands. After tutor hours, this issue was promptly fixed. The results were as expected and they work fine.
 
 ### **Copy whole directories with ```scp -r```**
-Copying whole markdown-parse directory to ieng6 account:
+Copying whole markdown-parse directory to ```ieng6``` account:
 ![Image](copyingEverything.png)
 ![Image](copyingEverythingPt2.png)
 
-Logging into ieng6 and running tests for repository:
+Logging into ```ieng6``` and running tests for repository:
 ![Image](tests.png)
 
-Combining scp, ;, and ssh to copy the whole directory and run the tests in one line:
+Combining ```scp```, ```;```, and ```ssh``` to copy the whole directory and run the tests in one line:
 ![Image](commandLine.png)
 ![Image](resultWithTest.png)
 
