@@ -25,11 +25,11 @@ In this case, I simply created an ssh file to make a shortcut. It was the easies
 ### **Setup Github Access from ```ieng6```**
 Picture of where my key is stored on github:
 ![Image](gitKeyStorage.png)
-Picture of my key in my user account:
+Picture of my key:
 ![Image](localKey.png)
 Picture of my key in my user account:
 ![Image](localKeyStorage.png)
-Git commands for push and commit respectively
+Git commands for push and commit respectively:
 ![Image](GitPush.png)
 
 ![Image](GitCommit.png)
