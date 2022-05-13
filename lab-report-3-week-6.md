@@ -22,17 +22,32 @@
 
 In this case, I simply created an ssh file to make a shortcut. It was the easiest of the three tasks, but finding the ssh folder on a mac proved to be quite the challenge. It works well, and I chose ieng6 to be my alias.
 
-### **Code Change 2**
+### **Setup Github Access from ieng6**
+Picture of where my key is stored on github:
+![Image](gitKeyStorage.png)
+Picture of my key in my user account:
+![Image](localKey.png)
+Picture of my key in my user account:
+![Image](localKeyStorage.png)
+Git commands for push and commit respectively
+![Image](GitPush.png)
 
-![Image](CodeChange2.png)
+![Image](GitCommit.png)
+
+[Link](https://github.com/dfigueroag/markdown-parser/commit/a5de5996d2d29a48e827b530b5d21356ef47527b) to resulting commit.
 
 
 
-In the second case, the error came from a space in between the ```[]``` brackets and the ```()``` parenthesis in the file link. Therefore, when the code attempted to read the ```file.md``` link, it did not like it. We were able to debug this by adding an if statement that checks if the closing square bracket is followed by a parenthesis, and not any other space or character. If the closing square bracket is not met by an open parenthesis, it would skip to the index of the open parenthesis.
+This portion deemed to be a lot more challenging as my computer was not liking the git commands. After tutor hours, this issue was promptly fixed. The results were as expected and they work fine.
 
-### **Code Change 3**
+### **Copy whole directories with ```scp -r```**
 
-![Image](CodeChange3.png)
+![Image](copyingEverything.png)
+![Image](copyingEverythingPt2.png)
+![Image](tests.png)
+![Image](commandLine.png)
+![Image](resultWithTest.png)
+
 
 [Code](https://github.com/kl2024/markdown-parser/blob/main/test-file3.md) that induced failure
 
