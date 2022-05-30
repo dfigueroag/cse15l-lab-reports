@@ -4,53 +4,74 @@
 
  [Index Page](index.html)
 
-### **Streamlining ssh Configuration**
+### **Test 1**
 
-```.ssh/config``` file:
+Snippet:
 
-![Image](configFile.png)
+![Image](Snippet1Code.png)
 
-```ssh``` command of my login:
+The expected output: ``` `google.com```, ```google.com```, ```ucsd.edu```
 
-![Image](login.png)
+Test:
 
-```scp``` command to copy:
+![Image](Test1.png)
 
-![Image](copySsh.png)
+My implementation's failure:
 
+![Image](Test1OwnResult.png)
 
+The TA implementation's failure:
+
+![Image](Test1Result.png)
+
+***What change could be made to make the test pass?***
 
 In this case, I simply created an ssh file to make a shortcut. It was the easiest of the three tasks, but finding the ssh folder on a mac proved to be quite the challenge. It works well, and I chose ```ieng6``` to be my alias.
 
-### **Setup Github Access from ```ieng6```**
-Picture of where my key is stored on github:
-![Image](gitKeyStorage.png)
-Picture of my key:
-![Image](localKey.png)
-Picture of my key in my user account:
-![Image](localKeyStorage.png)
-Git commands for push and commit respectively:
-![Image](GitPush.png)
+### **Test 2**
 
-![Image](GitCommit.png)
+Snippet:
 
-[Link](https://github.com/dfigueroag/markdown-parser/commit/a5de5996d2d29a48e827b530b5d21356ef47527b) to resulting commit.
+![Image](Snippet1Code.png)
 
+The expected output: ```a.com```, ```a.com(())```, ```example.com```
 
+Test:
 
-This portion deemed to be a lot more challenging as my computer was not liking the git commands. After tutor hours, this issue was promptly fixed. The results were as expected and they work fine.
+![Image](Test2.png)
 
-### **Copy whole directories with ```scp -r```**
-Copying whole markdown-parse directory to ```ieng6``` account:
-![Image](copyingEverything.png)
-![Image](copyingEverythingPt2.png)
+My implementation's failure:
 
-Logging into ```ieng6``` and running tests for repository:
-![Image](tests.png)
+![Image](Test2OwnResult.png)
 
-Combining ```scp```, ```;```, and ```ssh``` to copy the whole directory and run the tests in one line:
-![Image](commandLine.png)
-![Image](resultWithTest.png)
+The TA implementation's success:
 
+![Image](Test2Result.png)
 
-This portion was also straight forward. No issues where encountered once I fixed my key in part 2. The command line was tedious, but it worked in the end. This allows the process to be streamlined and works well.
+***What change could be made to make the test pass?***
+
+In this case, I simply created an ssh file to make a shortcut. It was the easiest of the three tasks, but finding the ssh folder on a mac proved to be quite the challenge. It works well, and I chose ```ieng6``` to be my alias.
+
+### **Test 3**
+
+Snippet:
+
+![Image](Snippet3Code.png)
+
+The expected output: ```https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule```
+
+Test:
+
+![Image](Test3.png)
+
+My implementation's failure:
+
+![Image](Test3OwnResult.png)
+
+The TA implementation's failure:
+
+![Image](Test3Result.png)
+
+***What change could be made to make the test pass?***
+
+In this case, I simply created an ssh file to make a shortcut. It was the easiest of the three tasks, but finding the ssh folder on a mac proved to be quite the challenge. It works well, and I chose ```ieng6``` to be my alias.
